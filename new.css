@@ -1,0 +1,88 @@
+body{
+   
+background-color:#800000;
+    
+    padding: none;
+}
+
+
+.main{
+    padding: 0px;
+}
+.main img{
+    border-radius: 25px;
+    
+    padding: 0px;
+    box-shadow: 0px 15px 8px black;
+    height: 500px;
+    width: auto;
+    position: relative;
+    top: 400px;
+    left: 380px;
+    transform: translate(-10%,-50%);
+}
+.Playlist{
+    font-family: Brush Script MT;
+    font-size: 70px;
+    color: #2B547E;
+    position: relative;
+    top: 300px;
+    left: 490px;
+    transform: translate(-10%,-50%);
+
+}
+.box{
+    height: 16rem;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem #000;
+    overflow: hidden;
+    margin: 2rem;
+    position: relative;
+    top: 350px;
+    left: 360px;
+    transform: translate(-10%,-50%);
+
+}
+.box .image{
+    height: 100%;
+    width: 25%;
+}
+.box .image img{
+    height: 100%;
+    width: 100%;
+}
+.box .music{
+    width: 75%;
+}
+.box .music audio{
+    width: 100%;
+    
+}
+
+
+
+
+
+.heading h1{
+    font-family: Brush Script MT;
+    font-size: 90px;
+    color: #2B547E;
+    position: relative;
+    top: 250px;
+    left: 350px;
+    transform: translate(10%,50%);
+}
+
+
+.map{
+    
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 350px;
+    left: 490px;
+}
